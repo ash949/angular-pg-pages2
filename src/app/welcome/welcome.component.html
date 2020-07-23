@@ -1,0 +1,3 @@
+<a *ngFor="let quiz of quizzes" [routerLink]="['/', quiz.name]">
+  {{ quiz.label + ': ' + quiz.description }}
+</a>
